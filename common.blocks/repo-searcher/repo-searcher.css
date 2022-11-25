@@ -1,0 +1,17 @@
+.repo-searcher {
+    display: flex;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    align-items: center;
+    padding: 60px;
+    min-width: 620px;
+}
+
+/*.repo-searcher__search-input {
+    margin-top: 60px;
+}*/
+
+.repo-searcher__list {
+    margin: 0;
+    padding: 0;
+}

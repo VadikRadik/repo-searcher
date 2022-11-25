@@ -1,0 +1,7 @@
+@import url("./common.blocks/page/page.css");
+@import url("./common.blocks/repo-searcher/repo-searcher.css");
+@import url("./common.blocks/serach-input/search-input.css");
+@import url("./common.blocks/autocomplete-list/autocomplete-list.css");
+@import url("./common.blocks/autocomplete-list-item/autocomplete-list-item.css");
+@import url("./common.blocks/repo-list/repo-list.css");
+@import url("./common.blocks/repo-card/repo-card.css");

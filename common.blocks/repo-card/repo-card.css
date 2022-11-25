@@ -1,0 +1,36 @@
+.repo-card {
+    height: 100px;
+    background-color: #E27BEB;
+    border: 1px solid #000000;
+}
+
+.repo-card__card-columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repo-card__card-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.repo-card__card-remove {
+    width: 40px;
+    height: 40px;
+    margin-right: 35px;
+    margin-top: 6px;
+    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 46%, rgba(255, 0, 0, 1) 55%, rgba(255, 0, 0, 0) 55%),
+        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 46%, rgba(255, 0, 0, 1) 55%, rgba(255, 0, 0, 0) 55%);
+}
+
+.repo-card__card-remove:hover {
+    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 46%, rgba(225, 225, 225, 1) 55%, rgba(255, 0, 0, 0) 55%),
+        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 46%, rgba(225, 225, 225, 1) 55%, rgba(255, 0, 0, 0) 55%);
+}
+
+.repo-card__info-line {
+    font-size: 24px;
+}

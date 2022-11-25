@@ -1,0 +1,12 @@
+.search-input {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    font-size: 48px;
+    padding-left: 12px;
+    width: 486px;
+}
+
+.search-input:focus {
+    outline: none;
+}
