@@ -22,15 +22,23 @@
     height: 40px;
     margin-right: 35px;
     margin-top: 6px;
-    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 46%, rgba(255, 0, 0, 1) 55%, rgba(255, 0, 0, 0) 55%),
-        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 46%, rgba(255, 0, 0, 1) 55%, rgba(255, 0, 0, 0) 55%);
+    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 47%, rgba(255, 0, 0, 1) 54%, rgba(255, 0, 0, 0) 55%),
+        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(255, 0, 0, 1) 47%, rgba(255, 0, 0, 1) 54%, rgba(255, 0, 0, 0) 55%);
 }
 
 .repo-card__card-remove:hover {
-    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 46%, rgba(225, 225, 225, 1) 55%, rgba(255, 0, 0, 0) 55%),
-        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 46%, rgba(225, 225, 225, 1) 55%, rgba(255, 0, 0, 0) 55%);
+    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 47%, rgba(225, 225, 225, 1) 54%, rgba(255, 0, 0, 0) 55%),
+        linear-gradient(to right bottom, rgba(255, 0, 0, 0) 46%, rgba(225, 225, 225, 1) 47%, rgba(225, 225, 225, 1) 54%, rgba(255, 0, 0, 0) 55%);
 }
 
 .repo-card__info-line {
     font-size: 24px;
+}
+
+.repo-card__repo-link:link,
+.repo-card__repo-link:visited,
+.repo-card__repo-link:hover,
+.repo-card__repo-link:active {
+    text-decoration: none;
+    color: #000000;
 }

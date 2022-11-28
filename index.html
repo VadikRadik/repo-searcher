@@ -10,31 +10,29 @@
     </head>
     <body class="page">
         <main class="repo-searcher page__repo-searcher">
-            <input type="text" class="search-input repo-searcher__search-input" value="Redux">
+            <input type="text" class="search-input repo-searcher__search-input" placeholder="GitHub key words">
             <ul class="autocomplete-list repo-searcher__list">
-                <li class="autocomplete-list-item">Redux</li>
-                <li class="autocomplete-list-item">Redux</li>
-                <li class="autocomplete-list-item">Redux</li>
-                <li class="autocomplete-list-item">Redux</li>
-                <li class="autocomplete-list-item">Redux</li>
+
             </ul>
-            <div class="repo-list page__repo-list">
-                <div class="repo-card">
-                    <div class="repo-card__card-columns">
-                        <div class="repo-card__card-info">
-                            <div class="repo-card__info-line">Name: react</div>
-                            <div class="repo-card__info-line">Owner: facebook</div>
-                            <div class="repo-card__info-line">Stars: 145231</div>
-                        </div>
-                        <div class="repo-card__card-remove"></div>
-                    </div>
-                </div>
-                <div class="repo-card"></div>
-                <div class="repo-card"></div>
+            <div class="repo-list repo-searcher__repo-list">
+
             </div>
         </main>
         <template id="autocomplete-list-item-template">
             <li class="autocomplete-list-item"></li>
         </template>
+        <template id="repo-card-template">
+            <div class="repo-card">
+                <div class="repo-card__card-columns">
+                    <div class="repo-card__card-info">
+                        <div class="repo-card__info-line">Name: <a class="repo-card__repo-link" target="_blank" rel="noopener noreferrer"></a></div>
+                        <div class="repo-card__info-line"></div>
+                        <div class="repo-card__info-line"></div>
+                    </div>
+                    <div class="repo-card__card-remove"></div>
+                </div>
+            </div>
+        </template>
+        <script src="./repo-searcher.js"></script>
     </body>
 </html>

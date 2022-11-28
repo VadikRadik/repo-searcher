@@ -6,6 +6,8 @@
     font-size: 30px;
     line-height: 35px;
     padding-left: 12px;
+    padding-right: 12px;
+    cursor: default;
 }
 
 .autocomplete-list-item:hover {
